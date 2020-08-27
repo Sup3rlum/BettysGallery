@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="nav.js"></script>
+        
+
+        <title> Betty's Gallery </title>
+    </head>
+    <body>
+        <div id="app">
+            <div class="navbar">
+              <div class="colum">
+                  <div class="home" >
+                    <i class="lni-home size-md ":class=" { 'lni-tada-effect' : showHome } " id="home" @click="showHome = !showHome"></i>
+                    <h4 v-if="showHome" style="margin-top: 8px; color: #ffff;"> Home </h4>
+                  </div>
+          
+                <div class="check">
+                  <i class="lni-check-mark-circle size-md":class=" { 'lni-tada-effect' : showCheck } " id="check" @click="showCheck = !showCheck"></i>
+                   <h4 v-if="showCheck" style="margin-top: 8px; color: #ffff;"> Check </h4>
+                </div>
+          
+                <div class="coin" >
+                  <i class="lni-coin size-md" :class=" { 'lni-tada-effect' : showCoin } " id="coin" @click="showCoin = !showCoin"></i>
+                   <h4 v-if="showCoin" style="margin-top: 8px; color: #ffff;"> Coin </h4>
+                </div>
+                
+                <div class="user" >
+                  <i class="lni-user size-md":class=" { 'lni-tada-effect' : showUser } "  id="user" @click="showUser = !showUser"></i>
+                  <h4 v-if="showUser" style="margin-top: 8px; color: #ffff;"> User </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
