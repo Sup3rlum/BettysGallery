@@ -1,39 +1,44 @@
 <template>
   <div id="app">
     <header>
-      <Navbar />
+        <HomeButton/>
+        <Navbar />
     </header>
+    
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar';
+import HomeButton from './components/HomeButton';
+
 export default {
   name: 'app',
   components: {
-    Navbar
+    Navbar,
+    HomeButton
   }
 }
 </script>
 
 <style>
+
+@font-face { font-family: BlackBerryJam; src: url('../public/assets/BlackberryJamPersonalUse-rXOB.ttf'); } 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: 'montserrat', sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../public/assets/basme.jpg");
 }
 header {
   width: 100vw;
-  background-color: #222;
   padding: 15px;
-  font-family: 'montserrat', sans-serif;
+  font-family: 'Montserrat', Geneva, Tahoma, sans-serif;
+  font-size: 15pt;
 }
 
-#app 
-{
-  font-family: 'Avenir', Helvetica, Arial, sans-serif; /* this was it */
-}
 </style>

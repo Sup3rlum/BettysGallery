@@ -36,11 +36,18 @@ nav .menu-item svg {
 nav .menu-item .sub-menu {
   position: absolute;
   background-color: #222;
-  top: calc(100% + 18px);
+  top: calc(100% );
   left: 50%;
   transform: translateX(-50%);
-  width: max-content;
+  width: 100%;
+
 }
+
+nav .sub-menu .menu-item
+{
+  width: 100%;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: all .5s ease-out;
