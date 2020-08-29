@@ -95,12 +95,25 @@ export default {
 
 <style>
 
+.gallery
+{
+  margin-top: 550px;
+  margin-bottom: 100px;
+
+}
+
 .gallery-wall {
 
   padding: 140px 0px 400px 0px;
-  margin: 250px 0;
-  background-color: #EEE;
+  margin: 0;
+  background-color: #111;
+  border-radius: 20px;
+}
 
+.gallery-header {
+  height: 10px;
+  background-color: #FF3838;
+  border-radius: 20px;
 }
 
 </style>

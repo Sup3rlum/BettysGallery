@@ -3,9 +3,15 @@
     <header>
         <HomeButton/>
         <Navbar />
-        <GalleryWall />
+
     </header>
     
+    <GalleryWall />
+
+    <footer>
+      <span> Copyright Toma Kolev (c) 2020</span>
+      <p>toma.kolev@yahoo.com</p>
+    </footer>
   </div>
 </template>
 
@@ -28,11 +34,11 @@ export default {
 
 @font-face { font-family: BlackBerryJam; src: url('../public/assets/BlackberryJamPersonalUse-rXOB.ttf'); } 
 
-* {
+* { 
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("../public/assets/media/Untitled.png");
@@ -44,6 +50,12 @@ header {
   padding: 0px;
   font-family: 'Montserrat', Geneva, Tahoma, sans-serif;
   font-size: 15pt;
+}
+footer {
+  color: #EEE;
+  font-family: 'Montserrat', Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  margin: 0px 0px 100px 100px;
 }
 
 </style>
