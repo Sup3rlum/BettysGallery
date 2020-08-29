@@ -1,7 +1,7 @@
 <template>
   <div class="home-element">
     <a class="home-title" href="#">Betty's Photo Gallery</a>
-    <span class="home-scroll-button">Take a look</span>
+    <a class="home-scroll-button" href="#gallery-section">Take a look</a>
   </div>
 </template>
 
@@ -9,6 +9,7 @@
 
 export default {
     name: 'homebutton'
+  
 }
 </script>
 
@@ -24,7 +25,7 @@ export default {
 .home-title {
   color: #FFF;
   text-decoration: none;
-  font-size: 50pt;
+  font-size: 60pt;
   font-family: BlackBerryJam;
 }
 
@@ -32,14 +33,22 @@ export default {
   color: #FFF;
   background-color: transparent;
   font-size: 15pt;
-  padding: 15px 30px;
-  border: 1px solid #EEE;
-  border-radius: 20px;
+  padding: 15px;
+  text-decoration: none;
+
   transition: 0.4s;
+  display: block;
+
+  border: 1px solid #FFF;
+  border-radius: 20px;  
+  margin: auto;
+  margin-top: 30px;
+  width: 150px;
 }
 
 .home-scroll-button:hover {
-  background-color: rgba(153, 151, 151, 0.7);
+  color: black;
+  background-color: rgb(255,255,255);
 }
 
 </style>

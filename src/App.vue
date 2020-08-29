@@ -39,6 +39,10 @@ export default {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("../public/assets/media/Untitled.png");
