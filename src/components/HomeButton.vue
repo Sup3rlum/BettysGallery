@@ -27,6 +27,14 @@ export default {
   text-decoration: none;
   font-size: 60pt;
   font-family: BlackBerryJam;
+  padding: 10px;
+/*
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #faf), color-stop(1, #aff));
+  background-image: gradient(linear, left top, right bottom, color-stop(0.15, #f2f), color-stop(0.45, #2ff));
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  */
 }
 
 .home-scroll-button {
@@ -44,6 +52,7 @@ export default {
   margin: auto;
   margin-top: 30px;
   width: 150px;
+  
 }
 
 .home-scroll-button:hover {

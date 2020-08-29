@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <header>
-        <HomeButton/>
         <Navbar />
+        <HomeButton/>
 
     </header>
     
@@ -11,7 +11,10 @@
     <footer>
       <span> Copyright Toma Kolev (c) 2020</span>
       <p>toma.kolev@yahoo.com</p>
+
     </footer>
+      <div class="navigation-top-bar">
+      </div>
   </div>
 </template>
 

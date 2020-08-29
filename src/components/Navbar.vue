@@ -1,10 +1,14 @@
 <template>
-  <nav>
-    <a href="#" class="fa fa-instagram"></a>
-    <div class="menu-item"><a href="#">About</a></div>
-    <Dropdown title="Services" :items="services" />
-    <div class="menu-item"><a href="#">Contact</a></div>
-  </nav>
+  <div class="navigation-header">
+    <div class="navigation-top-bar">
+    </div>
+    <nav>
+      <div class="menu-item"><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" class="fa fa-instagram"></a></div>
+      <div class="menu-item"><a href="#">About</a></div>
+      <Dropdown title="Services" :items="services" />
+      <div class="menu-item"><a href="#">Contact</a></div>
+    </nav>
+  </div>
 </template>
 
 <script>
@@ -37,15 +41,27 @@ export default {
 </script>
 
 <style>
+
+
+.navigation-top-bar {
+  height: 10px;
+  background-color: #FF3838;
+}
+.navigation-header {
+  height: 90px;
+  background-color: rgba(0,0,0,0.3);
+}
+
 nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin: 50px 50px;
+  margin: auto;
+
 }
 nav .menu-item {
   color: #FFF;
-  padding: 10px 20px;
+  padding: 30px 20px;
   position: relative;
   text-align: center;
   border-bottom: 3px solid transparent;
@@ -63,11 +79,10 @@ nav .menu-item a {
 }
 .fa
 {
-  padding: 20px;
+  padding: px;
 }
 .fa-instagram
 {
   color: #FFF;
-
 }
 </style>
