@@ -16,8 +16,10 @@ export default {
      color: #FFF;
      text-decoration: none;
      float: left;
-     margin: 20px 50px;
+     margin: 100px auto;
+     width: 100%;
      font-size: 40pt;
-     font-family: BlackBerryJam
+     font-family: BlackBerryJam;
+     text-align: center;
 }
 </style>

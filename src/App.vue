@@ -3,6 +3,7 @@
     <header>
         <HomeButton/>
         <Navbar />
+        <GalleryWall />
     </header>
     
   </div>
@@ -11,12 +12,14 @@
 <script>
 import Navbar from './components/Navbar';
 import HomeButton from './components/HomeButton';
+import GalleryWall from './components/GalleryWall';
 
 export default {
   name: 'app',
   components: {
     Navbar,
-    HomeButton
+    HomeButton,
+    GalleryWall
   }
 }
 </script>
@@ -33,6 +36,7 @@ export default {
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("../public/assets/basme.jpg");
+  background-attachment: fixed;
 }
 header {
   width: 100vw;
