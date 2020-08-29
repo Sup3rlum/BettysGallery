@@ -15,11 +15,12 @@ export default {
 
 img {
     border-radius: 5px;
-    width: 420px;
+    width: inherit;
 }
 
 .gallery-item-container {
     margin: 5px;
+    width: 320px;
 }
 
 </style>

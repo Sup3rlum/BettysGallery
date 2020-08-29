@@ -35,12 +35,13 @@ export default {
 }
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("../public/assets/basme.jpg");
+  background-image: url("../public/assets/media/Untitled.png");
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 header {
-  width: 100vw;
-  padding: 15px;
+  padding: 0px;
   font-family: 'Montserrat', Geneva, Tahoma, sans-serif;
   font-size: 15pt;
 }

@@ -1,8 +1,13 @@
 <template>
-  <div class="gallery" v-masonry transition-duration="0.3s" item-selector=".item">
+  <div class="gallery">
+    <div class="gallery-header">
+    </div>
+
+    <div class="gallery-wall" v-masonry transition-duration="0.3s" item-selector=".item">
       <div v-masonry-tile class="item" v-for="(image, i) in images" :key="i">
         <GalleryItem :path="image.imgName"/>
       </div>
+    </div>
   </div>
 </template>
 
@@ -90,9 +95,12 @@ export default {
 
 <style>
 
-.gallery {
+.gallery-wall {
 
-  margin: 140px auto;
+  padding: 140px 0px 400px 0px;
+  margin: 250px 0;
+  background-color: #EEE;
+
 }
 
 </style>
