@@ -48,14 +48,14 @@ html {
 
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("../public/assets/media/Untitled.png");
+  background-image: url("../public/assets/water.png");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 header {
   padding: 0px;
-  font-family: 'Montserrat', Geneva, Tahoma, sans-serif;
+  font-family: 'Playfair Display', Geneva, Tahoma, serif;
   font-size: 15pt;
 }
 footer {

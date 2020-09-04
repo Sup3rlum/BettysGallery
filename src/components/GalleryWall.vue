@@ -2,7 +2,7 @@
   <div class="gallery">
     <div id="gallery-section" class="gallery-wall" v-masonry transition-duration="0.3s" item-selector=".item">
       <div v-masonry-tile class="item" v-for="(image, i) in images" :key="i">
-        <GalleryItem :path="image.imgName"/>
+        <GalleryItem :path="image.imgName" :caption="image.imgCaption"/>
       </div>
     </div>
   </div>
@@ -94,14 +94,14 @@ export default {
 
 .gallery
 {
-  margin-top: 650px;
+  margin-top: 850px;
   margin-bottom: 100px;
   background-color: #EEE;
 }
 
 .gallery-wall {
 
-  padding: 140px 0px 400px 0px;
+  padding: 150px 0px 400px 0px;
   margin: 0;
 
   margin-left: 100px;

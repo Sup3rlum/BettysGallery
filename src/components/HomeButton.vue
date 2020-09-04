@@ -17,7 +17,7 @@ export default {
 
 .home-element {
   float: left;
-  margin: 200px auto;
+  margin: 260px auto;
   width: 100%;
   text-align: center;
 }
