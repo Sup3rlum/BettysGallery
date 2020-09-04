@@ -62,7 +62,7 @@ img {
 }
 .gallery-item-bar {
   margin: 20px;
-  width: 3px;
+  width: 1px;
   height: 80px;
   background-color: rgb(255, 238, 0);
 }

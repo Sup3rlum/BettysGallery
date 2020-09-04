@@ -55,7 +55,8 @@ body {
 }
 header {
   padding: 0px;
-  font-family: 'Playfair Display', Geneva, Tahoma, serif;
+  font-family: 'Montserrat', Geneva, Tahoma, serif;
+  font-weight: 200;
   font-size: 15pt;
 }
 footer {

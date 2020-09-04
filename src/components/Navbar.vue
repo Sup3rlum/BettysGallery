@@ -95,7 +95,6 @@ nav .menu-item a {
   text-decoration: none;
 }
 
-
 .fa
 {
   padding: px;
