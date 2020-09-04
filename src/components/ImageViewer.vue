@@ -1,6 +1,5 @@
 <template>
     <div class="imgv-container">
-
         <div class="imgv-bar"></div>
 
         <p class="imgv-caption">{{caption}}</p>
@@ -16,7 +15,7 @@
 <script>
 export default {
     name: "imageviewer",
-    props: ['path', 'caption', 'text']
+    props: ['path', 'caption']
 }
 </script>
 
